@@ -13,7 +13,7 @@ const HomePage = () => {
   if (isLoading) {
     return (
       <div className="p-3">
-        <p>Loading...</p>;
+        <p>Loading...</p>
       </div>
     );
   }
@@ -21,7 +21,7 @@ const HomePage = () => {
   if (isError) {
     return (
       <div className="p-3">
-        <p>Error...</p>;
+        <p>Error...</p>
       </div>
     );
   }
