@@ -11,11 +11,19 @@ const HomePage = () => {
   });
 
   if (isLoading) {
-    return <p>Loading...</p>;
+    return (
+      <div className="p-3">
+        <p>Loading...</p>;
+      </div>
+    );
   }
 
   if (isError) {
-    return <p>Error...</p>;
+    return (
+      <div className="p-3">
+        <p>Error...</p>;
+      </div>
+    );
   }
   return (
     <div className="p-3">
